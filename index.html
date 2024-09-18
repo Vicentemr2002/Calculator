@@ -10,13 +10,11 @@
 <body>
     <div class="calculator">
 
-        <div id="result-display">
-            
-        </div>
+        <div id="result-display"></div>
         <input type="text" id="display" disabled>
         <div class="buttons">
             <button onclick="clearDisplay()" class="mic">C</button>
-            <button onclick="appendToDisplay('±')" class="mic">±</button>
+            <button onclick="changeSign()" class="mic">±</button>
             <button onclick="appendToDisplay('%')" class="mic">%</button>
             <button onclick="appendToDisplay('/')" class="fun">÷</button>
             <button onclick="appendToDisplay('7')">7</button>
@@ -27,8 +25,8 @@
             <button onclick="appendToDisplay('5')">5</button>
             <button onclick="appendToDisplay('6')">6</button>
             <button onclick="appendToDisplay('-')"class="fun">-</button>
-            <button onclick="appendToDisplay('3')">2</button>
-            <button onclick="appendToDisplay('2')">3</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('2')">2</button>
             <button onclick="appendToDisplay('1')">1</button>
             <button onclick="appendToDisplay('+')"class="fun">+</button>
             <button onclick="appendToDisplay('.')">.</button>
