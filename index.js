@@ -1,6 +1,5 @@
 function clearDisplay() {
     document.getElementById('display').value = '';
-    document.getElementById('result-display').textContent = '';
 
 }
 
@@ -20,19 +19,4 @@ function calculate() {
     } catch (error) {
         document.getElementById('display').value = 'Error';
     }
-}
-
-let history = [];
-
-function addToHistory(entry) {
-    history.push(entry);
-    let historyElement = document.getElementById('history');
-    
-    historyElement.innerHTML = '';
-
-    history.forEach(item => {
-        let p = document.createElement('p');
-        p.textContent = item;
-        historyElement.appendChild(p);
-    });
 }
