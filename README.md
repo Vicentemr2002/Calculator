@@ -1,4 +1,4 @@
 # Calculator
 My test calculator
 
-![alt text](Calculadorajpg.jpg)
+![alt text](assets/presentation.gif)
